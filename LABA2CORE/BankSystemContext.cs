@@ -10,6 +10,7 @@ namespace LABA2CORE
     {
         public BankSystemContext()
         {
+            Database.EnsureCreated();
         }
 
         public BankSystemContext(DbContextOptions<BankSystemContext> options)

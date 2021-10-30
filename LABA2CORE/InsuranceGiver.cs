@@ -12,6 +12,7 @@ namespace LABA2CORE
         public double? InsuranceAmount { get; set; }
         public string InsuranceObject { get; set; }
 
+        public bool IsBank { get; set; } //new
         public virtual Bank InsuranceObjectNavigation { get; set; }
     }
 }
